@@ -9,7 +9,7 @@ type Vertex struct {
 
 func main() {
 	v := Vertex{1, 2}
-	p := &v
+	p := &v           // generate a pointer to struct
 
 	p.X = 1e9
 	fmt.Println(v)
